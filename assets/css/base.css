@@ -1,0 +1,35 @@
+:root {
+  /* Colors */
+  --background-white: #ffffff;
+  --background-cream: #dab997b3;
+
+  --button-red: #da2b1f;
+  --button-dark-red: #9f1010;
+
+  /* Fonts*/
+  --font-light-grey: #8c8888;
+  --font-dark-grey: #333333;
+  --font-red: #da2b1f;
+  --font-white: #ffffff;
+  
+  --font-size-super: 5rem;
+  --font-size-big: 3rem;
+  --font-size-medium: 1.7rem;
+  --font-size-medium-small: 1.2rem;
+  --font-size-small: 1rem;
+
+  --roboto: "Roboto", sans-serif;
+  --pacifico: "Pacifico", cursive;
+}
+
+body {
+  font-family: var(--roboto);
+  font-size: var(--font-size-small);
+  font-weight: 300;
+  background-color: var(--background-white);
+  color: #000;
+}
+
+html {
+  min-width: 300px;
+}

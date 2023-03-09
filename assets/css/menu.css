@@ -1,0 +1,17 @@
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+
+.menu__link {
+  margin: 1rem 0.7rem;
+}
+.menu__link a {
+  font-size: var(--font-size-small);
+  color: var(--font-light-grey);
+  text-decoration: none;
+}
+.menu__link a:hover {
+  font-weight: 500;
+  color: var(--font-dark-grey);
+}

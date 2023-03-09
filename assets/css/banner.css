@@ -1,0 +1,22 @@
+.banner {
+  width: 100%;
+  background: url("../img/banner.png") no-repeat center / cover;
+  padding: 4rem 2rem;
+}
+
+.banner__title {
+  font-family: var(--pacifico);
+  font-size: var(--font-size-big);
+  text-align: center;
+  color: var(--font-white);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    padding: 7rem 2rem;
+  }
+  .banner__title {
+    font-size: var(--font-size-super);
+  }
+}
